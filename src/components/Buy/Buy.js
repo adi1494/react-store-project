@@ -8,7 +8,6 @@ export default class Buy extends Component {
         return (
             <ProductConsumer>
                 {value => {
-                    const {cart} = value;
                     return (
                         <React.Fragment>
                             <Purchase value={value}></Purchase>

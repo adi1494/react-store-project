@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function BuyItem({item, value}) {
-    const { id, title, img, price, total, count } = item;
+    const { title, img, price, total, count } = item;
 
     return (
         <div className="row my-5 text-capitalize text-center align-items-center col-8 mx-auto">

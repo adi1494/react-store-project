@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Purchase({ value }) {
-    const { cartTotal, cartSubtotal, cartTax, clearCart } = value;
+    const { cartTotal, cartSubtotal, cartTax } = value;
 
     return (
         console.log(`the total payable amount is : ${cartTotal}`),
